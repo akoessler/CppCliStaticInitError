@@ -1,0 +1,52 @@
+# backup and swap files
+*~
+*.swp
+*.bak
+
+# build directories
+[Bb]in/
+[Oo]bj/
+[Rr]elease/
+[Dd]ebug/
+[Oo]utput/
+
+# nuget
+packages/
+*.nupkg
+*.nuget.props
+*.nuget.targets
+
+# vstudio caches/options
+.vs/
+ipch/
+*.VC.db
+*.VC.VC.opendb
+*.ncb
+*.opendb
+*.opensdf
+*.sdf
+*.cachefile
+*.pch
+# files ending in .cache can be ignored
+*.[Cc]ache
+# but keep track of directories ending in .cache
+!*.[Cc]ache/
+
+# user specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# resharper directories and files
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# intellij/rider files
+.idea
+
+# generated c files
+*_i.[ch]
+*_p.c
+*.ilk
